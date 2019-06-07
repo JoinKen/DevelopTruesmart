@@ -1,0 +1,126 @@
+
+        #baner{
+        width: 1186px;
+        height: 120;
+        margin: auto;
+        padding:10px;
+        }
+
+                
+        #menuphukien{
+            width: 1186px;
+            height: 120;
+            margin: auto;
+            font-size: 15px;
+            font-weight: bold;
+        }
+
+        #menuphukien ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: rgb(65, 131, 84);
+        }
+
+
+        #menuphukien li {
+            float: left;
+        }
+
+        #menuphukien li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        #menuphukien li select {
+            display: block;
+            color: white;
+            font-weight: bold;
+            background-color: rgb(65, 131, 84);
+            text-align: center;
+            padding: 12px 16px;
+            text-decoration: none;
+        }
+
+        #menuphukien li a:hover {
+            background-color: rgb(34, 94, 55);
+        }
+
+        #khauhieuphukien{
+            width: 1186px;
+            height: 30px;
+            line-height: 30px;
+            margin: auto;
+            font-size: 20px;
+            font-weight: bold;
+            border-top: 3px solid orange;
+            border-bottom: 3px solid orange;
+        }
+        #containerphukien {
+            width: 1186px;
+            height: 1200;
+            margin: auto;
+        }
+
+        #containerphukien a{
+            color:black;
+            text-decoration: none;
+        }
+
+        #containerphukien a :hover{
+            color:red;
+        }
+
+        .khungphukien {
+            width: 235px;
+            height: 280px;
+            border: 1px solid rgb(194, 189, 189);
+            display: block;
+            float: left;
+        }
+
+        .khungphukien li{
+            margin-left: -16px;;
+            font-size: 12px;
+            clear: both;
+        }
+
+        .anhphukien{
+            width: 150px;
+            height: 150px;
+            display: block;
+            margin: 20px  auto;
+        }
+        
+        .tenphukien{
+            width: 170px;
+            margin-left: 10px;
+            margin-top: -10px;
+            font-weight: bold;
+            float: left;
+            
+        }
+
+        .nutmuaphukien{
+            width: 50px;
+            height: 25px;
+            color: white;
+            text-align: center;
+            line-height: 25px;
+            background-color: coral;
+            border-radius: 5px;
+            float: left;
+        }
+       
+
+        .giaphukien{
+            color: red;
+            font-weight: bold;
+            font-size: 16px;
+            margin-left: 10px;
+        }

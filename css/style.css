@@ -1,0 +1,23 @@
+body{font-size:14px;font-family:Arial;color:#000;padding:32px 0 0 0;margin:0;min-width:1200px;background-color:#fafafa}
+form{padding:0;margin:0 auto;overflow:hidden;width:1200px}
+/*  */
+ul{padding:0;margin:0;list-style-type:none}
+ul li{padding:0;margin:0;list-style-type:none}
+h1,h2,h3,h4,h5,h6{padding:0;margin:0}
+a{color:#333;text-decoration:none}
+a:hover{color:#fec305;text-decoration:underline}
+/*  */
+.sao{font-family:Verdana;color:Red}
+/*  */
+.cclear{clear:both}
+.txt{border:0 solid #fff;font-size:11px;color:#2c478c;background-color:Transparent;padding:0;margin:0;border:0;border-style:none}
+/*  */
+.DaySoTrng{font-weight:700;line-height:22px;text-align:center;display:block;height:30px;margin-bottom:20px}
+.DaySoTrng .p:active,.DaySoTrng .p:link,.DaySoTrng .p:visited{color:#0176b8;text-decoration:none;border:solid 1px #ccc;padding:2px 8px}
+.DaySoTrng .p:hover{color:red;text-decoration:none}
+.DaySoTrng .ps{color:Red;border:solid 1px #ccc;padding:2px 8px}
+/*  */
+.dp2 img:hover,.vdh img:hover{-moz-opacity:.8;opacity:.8;filter:alpha(opacity=80)}
+/*  */
+.DynamicMenu ul,.ThanhGhimTop ul,.TinTucKetNoi .cc,.eml ul,.pul,.uft,.us li,.v2 ul,.vdh,.vdt{width:1200px;margin-left:auto;margin-right:auto}
+.DynamicMenu .c,.TinTucKetNoi .h,.TinTucKetNoi .tt,.ca b,.d1p h1,.dnk,.dnr .h,.dpr .h,.dvl .h,.dvl .t1,.eml .l,.hp1,.pul .a,.pul .c2,.uft .tt,.umt .l,.v0 .h,.v2 strong,.v8 .s1,.vdt span{font-family:Roboto,sans-serif!important;font-size:14px;text-transform:uppercase}

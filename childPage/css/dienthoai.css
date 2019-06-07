@@ -1,0 +1,134 @@
+*{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+#baner{
+    width: 1186px;
+    height: 120;
+    margin: auto;
+    padding:10px;
+}
+
+#menudienthoai{
+    width: 1186px;
+    height: 120;
+    margin: auto;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#menudienthoai ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(65, 131, 84);
+}
+
+
+#menudienthoai li {
+    float: left;
+}
+
+#menudienthoai li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#menudienthoai li select {
+    display: block;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(65, 131, 84);
+    text-align: center;
+    padding: 12px 16px;
+    text-decoration: none;
+}
+
+#menudienthoai li a:hover {
+    background-color: rgb(34, 94, 55);
+}
+
+#khauhieudienthoai{
+    width: 1186px;
+    height: 30px;
+    line-height: 30px;
+    margin: auto;
+    font-size: 20px;
+    font-weight: bold;
+    border-top: 3px solid orange;
+    border-bottom: 3px solid orange;
+}
+
+#containerdienthoai {
+    width: 1186px;
+    height: 1200;
+    margin: auto;
+    margin-top: 10px;
+    /* border: 1px solid blue; */
+}
+
+#containerdienthoai a{
+    color:black;
+    text-decoration: none;
+}
+
+#containerdienthoai a :hover{
+    color:red;
+}
+
+.khungdienthoai {
+    width: 235px;
+    height: 320px;
+    border: 1px solid black;
+    display: block;
+    float: left;
+}
+.khungdienthoai ul{
+    list-style-type: disc !important;
+    overflow: visible;
+}
+.khungdienthoai li{
+    margin-left: 2em !important;
+    font-size: 12px !important;
+    clear: both !important;
+    list-style-type: disc !important;
+}
+
+.anhdienthoai{
+    width: 150px;
+    display: block;
+    margin: 20px  auto;
+}
+
+.tendienthoai{
+    width: 170px;
+    margin-left: 10px;
+    margin-top: -10px;
+    font-weight: bold;
+    float: left;
+    
+}
+
+.nutmuadienthoai{
+    width: 50px;
+    height: 25px;
+    color: white;
+    text-align: center;
+    line-height: 25px;
+    background-color: coral;
+    border-radius: 5px;
+    float: left;
+}
+
+.giadienthoai{
+    color: red;
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: 10px;
+}

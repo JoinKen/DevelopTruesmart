@@ -1,0 +1,17 @@
+.MuaLeft{float:left;width:45%;margin:10px 20px;overflow:hidden}
+.MuaLeft img{display:block;height:130px}
+/*  */
+.ll{float:left;width:40%;overflow:hidden;padding-bottom:20px}
+.rr{width:55%;padding-left:10px;float:left;overflow:hidden}
+.MuaRight{float:left;width:45%;overflow:hidden;margin:10px 12px 10px 0}
+.MuaRight .h{font-weight:700;height:25px}
+/*  */
+.l1,.l2,.l3,.l4,.l5,.l6,.l7{float:left;overflow:hidden;outline:0;clear:both;width:100%;padding:5px 0}
+.l1{width:20%}
+.l2{clear:none;width:80%}
+.l7 button{width:99%;background-color:#1eca27;color:#fff;border:none;outline:0;border-radius:10px;cursor:pointer;font-weight:700;font-size:25px;padding:5px;margin-bottom:10px}
+.l7 button:hover{transition-property:padding;transition-duration:1s;box-shadow:3px 5px 10px 0 rgba(0,0,0,.2),0 5px 25px 0 rgba(0,0,0,.2);border:red 1px solid;margin-bottom:8px;padding:12x 0 12px 0}
+/*  */
+.bot{float:left;clear:both;margin:10px 0}
+/*  */
+#isGia1{float:left;font-weight:700;font-size:21px;padding-right:10px;color:red}

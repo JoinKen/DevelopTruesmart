@@ -1,0 +1,120 @@
+
+                
+        #menuipad{
+            width: 1186px;
+            height: 120;
+            margin: auto;
+            font-size: 15px;
+            font-weight: bold;
+        }
+
+        #menuipad ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: rgb(65, 131, 84);
+        }
+
+
+        #menuipad li {
+            float: left;
+        }
+
+        #menuipad li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        #menuipad li select {
+            display: block;
+            color: white;
+            font-weight: bold;
+            background-color: rgb(65, 131, 84);
+            text-align: center;
+            padding: 12px 16px;
+            text-decoration: none;
+        }
+
+        #menuipad li a:hover {
+            background-color: rgb(34, 94, 55);
+        }
+        #khauhieuipad{
+            width: 1186px;
+            height: 30px;
+            line-height: 30px;
+            margin: auto;
+            font-size: 20px;
+            font-weight: bold;
+            border-top: 3px solid orange;
+            border-bottom: 3px solid orange;
+        }
+
+        #containeripad {
+            width: 1186px;
+            height: 1200;
+            margin: auto;
+        }
+
+        #containeripad a{
+            color:black;
+            text-decoration: none;
+        }
+
+        #containeripad a :hover{
+            color:red;
+        }
+
+        .khungipad {
+            width: 235px;
+            height: 320px;
+            border: 1px solid rgb(194, 189, 189);
+            display: block;
+            float: left;
+        }
+        .khungipad ul{
+            list-style-type: disc !important;
+            overflow: visible;
+        }
+        .khungipad li{
+            margin-left: 2em !important;
+            font-size: 12px !important;
+            clear: both !important;
+            list-style-type: disc !important;
+        }
+        .anhipad{
+            width: 150px;
+            display: block;
+            margin: 20px  auto;
+        }
+        
+        .tenipad{
+            width: 170px;
+            margin-left: 10px;
+            margin-top: -10px;
+            font-weight: bold;
+            float: left;
+            
+        }
+
+        .nutmuaipad{
+            width: 50px;
+            height: 25px;
+            color: white;
+            text-align: center;
+            line-height: 25px;
+            background-color: coral;
+            border-radius: 5px;
+            float: left;
+        }
+
+        .giaipad{
+            color: red;
+            font-weight: bold;
+            font-size: 16px;
+            margin-left: 10px;
+        }

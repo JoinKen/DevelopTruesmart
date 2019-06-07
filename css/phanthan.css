@@ -1,0 +1,26 @@
+#containerdienthoai{
+    width: 1186px !important;
+    height: 350px !important;
+    margin: auto !important;
+    overflow: hidden !important;
+    font-size: 15px !important;
+    font-weight: bold !important;
+}
+
+#containersuachua{
+    width: 1186px !important;
+    height: 320px !important;
+    margin: auto !important;
+    overflow: hidden !important;
+    font-size: 15px !important;
+    font-weight: bold !important;
+}
+
+#containerphukien{
+    width: 1186px !important;
+    height: 320px !important;
+    margin: auto !important;
+    overflow: hidden !important;
+    font-size: 15px !important;
+    font-weight: bold !important;
+}

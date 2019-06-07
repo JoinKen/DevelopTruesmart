@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title> TrueSmart - Cửa hàng sửa chữa điện thoại di động uy tín tại Hà Nội </title>
+    <link href="./css/home.css" rel="stylesheet" type="text/css" />
+    <link href="./childPage/css/dienthoai.css" rel="stylesheet" type="text/css">
+    <link href="./childPage/css/suachua.css" rel="stylesheet" type="text/css">
+    <link href="./childPage/css/phukien.css" rel="stylesheet" type="text/css">
+    <link href="./css/phanthan.css" rel="stylesheet" type="text/css">
+</head>
+
+
+<body>
+    <!-- <h1 class='t'>TrueSmart - Cửa hàng sửa chữa điện thoại di động uy tín tại Hà Nội</h1> -->
+    <button onclick="topFunction()" id="myBtnTop" title="Go to top"></button>
+
+    <!--#region navBar , thanh ghim TOP và DynamicMenu -->
+    <div id="navbar">
+        <ul>
+            <li class="c">
+                <a style="background:url('./img/m/p217.png') no-repeat 7px 12px;" href="./childPage/DienThoai.html" title="Cung cấp điện thoại, smartphone chính hãng - Ưu đãi mua hàng trả góp 0%‎">Điện Thoại</a>
+            </li>
+            <li class="c">
+                <a style="background:url('./img/m/p218.png') no-repeat 7px 12px;" href="./childPage/Ipad.html" title="Apple iPad | Máy tính bảng chính hãng nhiều ưu đãi lớn">&nbsp;&nbsp;iPad</a>
+            </li>
+            <li class="c">
+                <a style="background:url('./img/m/p220.png') no-repeat 7px 12px;" href="./childPage/SuaChua.html" title="Sửa chữa điện thoại uy tín tại Hà Nội - Truesmart">Sửa Chữa Điện Thoại</a>
+            </li>
+            <li class="c">
+                <a style="color:#000;font-weight:650;text-shadow:1px 1px 1px #fff,2px 2px 0 orange;box-shadow:0 4px 8px 0 rgba(0,0,0,.2),0 6px 20px 0 rgba(0,0,0,.19);border-bottom:#000 2px solid;border-top:#fff 2px solid;transition-property:background;transition-duration:1s; background:url('./img/m/p219.png') no-repeat 7px 12px;"
+                    href="./childPage/PhuKien.html" title="Phụ kiện điện thoại chính háng giá rẻ tại Hà Nội">Phụ Kiện</a>
+            </li>
+            <li class="c">
+                <a style="background:url('./img/m/p222.png') no-repeat 7px 12px;" href="./childPage/Unlock.html" title="Unlock mở khóa bẻ khóa các loại điện thoại xách tay tại Hà Nội">Unlock</a>
+            </li>
+            <li class="c">
+                <a style="background:url('./img/m/p223.png') no-repeat 7px 12px;" href="./childPage/DaoTao.html" title="Đào tạo Kỹ thuật Sửa chữa Các loại điện thoại Chuyên nghiệp">&nbsp;&nbsp;Đào Tạo</a>
+            </li>
+            <li class="c">
+                <a style="background:url('./img/m/p224.png') no-repeat 7px 12px;" href="./childPage/UuDai.html" title="Ưu đãi tại Truesmart">Ưu Đãi</a>
+            </li>
+            <li class="c">
+                <a style="background:url('./img/m/p225.png') no-repeat 7px 12px;" href="./childPage/TuyenDung.html" title="Tuyển dụng nhân viên các vị trí tại Truesmart">Tuyển Dụng</a>
+            </li>
+            <li class="c">
+                <a style="background:url('./img/m/p500.png') no-repeat 7px 12px;" href="./childPage/TinTuc.html" title="Tin tức công nghệ cập nhật 24h tại Truesmart">&nbsp;&nbsp;&nbsp;Tin Tức</a>
+            </li>
+            <li class="c">
+                <a style="background:url('./img/m/p101.png') no-repeat 7px 12px;" href="./childPage/TraGop.html" title="Mua Trả Góp Điện Thoại iPhone, iPad Tại TrueSmart">Trả Góp</a>
+            </li>
+        </ul>
+        <ul style="float: left;">
+            <li>
+                <div>
+                    <input type="image" name="iSearch" id="iSear" class="s" src="./img/ic/1.gif" style="background-color: rgba(0, 255, 255, 0.377); padding-left: 3px;"
+                    />
+                    <input name="keyValue" type="text" id="key" class="txt" placeholder="Nhập từ khóa tìm kiếm" />
+                </div>
+            </li>
+        </ul>
+    </div>
+    <!-- Sự kiện với scroll -->
+    <script>
+        function topFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.body.scrollTop -= 80;
+                document.documentElement.scrollTop -= 80;
+                setTimeout(topFunction, 30);
+            }
+        }
+
+        window.onscroll = function () {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("navbar").style.top = "30px";
+                document.getElementById("myBtnTop").style.display = "block";
+            } else {
+                document.getElementById("navbar").style.top = "-100px";
+                document.getElementById("myBtnTop").style.display = "none";
+            }
+        }
+    </script>
+
+
+    <div class="ThanhGhimTop">
+        <ul>
+            <li class="g">
+            </li>
+            <li class="f">
+            </li>
+            <li class="r">Hotline:
+                <b>0948.122.666 - 0948.122.666</b>
+            </li>
+            <li class="c">
+                <a href="#trang404">Người nổi tiếng chọn TrueSmart</a>
+                <b>|</b>
+                <a href="#trang404">Lịch sử phát triển</a>
+                <b>|</b>
+                <a href="#trang404">Tầm nhìn, sứ mệnh</a>
+                <b>|</b>
+                <a href="#trang404">Góc báo trí</a>
+                <b>|</b>
+                <a href="./childPage/TinTuc.html">Tin mới nhất</a>
+                <b>|</b>
+            </li>
+        </ul>
+    </div>
+
+
+    <div class="DynamicMenu">
+        <ul>
+            <li class="l">
+                <a href="./index.html" title="True Smart"></a>
+            </li>
+            <li class="c">
+                <a style="background:url('./img/m/p217.png') no-repeat center 12px;" href="./childPage/DienThoai.html" title="Cung cấp điện thoại, smartphone chính hãng - Ưu đãi mua hàng trả góp 0%‎">Điện thoại</a>
+            </li>
+            <li class="c">
+                <a style="background:url('./img/m/p218.png') no-repeat center 12px;" href="./childPage/Ipad.html" title="Apple iPad | Máy tính bảng chính hãng nhiều ưu đãi lớn">iPad</a>
+            </li>
+            <li class="c">
+                <a style="background:url('./img/m/p220.png') no-repeat center 12px;" href="./childPage/SuaChua.html" title="Sửa chữa điện thoại uy tín tại Hà Nội - Truesmart">Sửa chữa</a>
+            </li>
+            <li class="c">
+                <a style="background:url('./img/m/p219.png') no-repeat center 12px;" href="./childPage/PhuKien.html" title="Phụ kiện điện thoại chính háng giá rẻ tại Hà Nội">Phụ kiện</a>
+            </li>
+            <li class="c">
+                <a style="background:url('./img/m/p222.png') no-repeat center 12px;" href="./childPage/Unlock.html" title="Unlock mở khóa bẻ khóa các loại điện thoại xách tay tại Hà Nội">Unlock</a>
+            </li>
+            <li class="c">
+                <a style="background:url('./img/m/p223.png') no-repeat center 12px;" href="./childPage/DaoTao.html" title="Đào tạo Kỹ thuật Sửa chữa Các loại điện thoại Chuyên nghiệp">Đào tạo</a>
+            </li>
+            <li class="c">
+                <a style="background:url('./img/m/p224.png') no-repeat center 12px;" href="./childPage/UuDai.html" title="Ưu đãi tại Truesmart">Ưu đãi</a>
+            </li>
+            <li class="c">
+                <a style="background:url('./img/m/p225.png') no-repeat center 12px;" href="./childPage/TuyenDung.html" title="Tuyển dụng nhân viên các vị trí tại Truesmart">Tuyển dụng</a>
+            </li>
+            <li class="c">
+                <a style="background:url('./img/m/p500.png') no-repeat center 12px;" href="./childPage/TinTuc.html" title="Tin tức công nghệ cập nhật 24h tại Truesmart">Tin tức</a>
+            </li>
+            <li class="c">
+                <a style="background:url('./img/m/p101.png') no-repeat center 12px;" href="./childPage/TraGop.html" title="Mua Trả Góp Điện Thoại iPhone, iPad Tại TrueSmart">Trả góp</a>
+            </li>
+        </ul>
+    </div>
+    <!--#endregion  -->
+
+    <!--#region Thân chính  -->
+    <form action="#">
+        <ul class="us">
+            <li>
+                <div>
+                    <input type="image" name="iSearch" id="iSear" class="s" src="./img/ic/1.gif" style="background-color: rgba(0, 255, 255, 0.377); padding-left: 3px;"
+                    />
+                    <input name="keyValue" type="text" id="key" class="txt" placeholder="Nhập từ khóa tìm kiếm" />
+                </div>
+            </li>
+        </ul>
+
+        <ul class="v0">
+            <li class="h">Hệ thống Showroom
+                <strong>TrueSmart</strong>
+            </li>
+            <li class="v">
+                <span>Trụ Sở 1: 31 Xã Đàn-Đống Đa-HN</span>Hotline:
+                <b>0948.122.666</b>
+            </li>
+            <li class="v">
+                <span>CS2: 21 Đội Cấn-Ba Đình-HN</span>Hotline:
+                <b>0961.023.023</b>
+            </li>
+            <li class="v">
+                <span>CS3: 21B Hàng Bài- Hoàn Kiếm - HN</span>Hotline:
+                <b>0981.665.665</b>
+            </li>
+            <li class="v">
+                <span>CS4: 45 Nguyễn Chí Thanh - Ba Đình - HN</span>Hotline:
+                <b>0948.550.560</b>
+            </li>
+            <li class="v">
+                <span>CS5: 196 Nguyễn Trãi-Thanh Xuân - HN</span>Hotline:
+                <b>01665.92.92.92</b>
+            </li>
+            <li class="v">
+                <span>CS6: 81 Phố Vọng-Hai Bà Trưng-HN</span>Hotline:
+                <b>096.123.8181</b>
+            </li>
+            <li class="v">
+                <span>CS7: 23 Nguyễn Phong Sắc, Cầu Giấy, HN</span>Hotline:
+                <b>0961.933.933</b>
+            </li>
+            <li class="v">
+                <span>CS8: 215 Nguyễn Văn Cừ - Long Biên - Hà Nội</span>Hotline:
+                <b>0886.215.215</b>
+            </li>
+            <li class="v">
+                <span>CS9: 204 Thái Hà - Đống Đa - Hà Nội</span>Hotline:
+                <b>096.357.3333</b>
+            </li>
+            <li class="v">
+                <span>CS10: 41 Quang Trung - Hà Đông - Hà Nội</span>Hotline:
+                <b>093.123.4141</b>
+            </li>
+        </ul>
+
+        <!--#region Slide SHOW -->
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <a href="#" rel="nofollow">
+                    <img src="./img/g/g95.jpg" alt="Cửa hàng sửa chữa điện thoại di động TrueSmart" />
+                </a>
+            </div>
+            <div class="mySlides fade">
+                <a href="#" rel="nofollow">
+                    <img src="./img/g/g100.jpg" alt="Cửa hàng sửa chữa điện thoại di động TrueSmart" />
+                </a>
+            </div>
+            <div class="mySlides fade">
+                <a href="#" rel="nofollow">
+                    <img src="./img/g/g96.jpg" alt="Cửa hàng sửa chữa điện thoại di động TrueSmart" />
+                </a>
+            </div>
+            <div class="mySlides fade">
+                <a href="#" rel="nofollow">
+                    <img src="./img/g/g88.jpg" alt="Cửa hàng sửa chữa điện thoại di độngTrueSmart" />
+                </a>
+            </div>
+            <div class="mySlides fade">
+                <a href="#" rel="nofollow">
+                    <img src="./img/g/g99.jpg" alt="Cửa hàng sửa chữa điện thoại di động TrueSmart" />
+                </a>
+            </div>
+            <div class="mySlides fade">
+                <a href="#" rel="nofollow">
+                    <img src="./img/g/g97.jpg" alt="Cửa hàng sửa chữa điện thoại di động TrueSmart" />
+                </a>
+            </div>
+            <div class="mySlides fade">
+                <a href="#" rel="nofollow">
+                    <img src="./img/g/g98.jpg" alt="Cửa hàng sửa chữa điện thoại di động TrueSmart" />
+                </a>
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            <div style="text-align:center; margin: 8px;">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+                <span class="dot" onclick="currentSlide(6)"></span>
+                <span class="dot" onclick="currentSlide(7)"></span>
+            </div>
+        </div>
+        <!-- Trình chiếu  -->
+        <script>
+            var slideIndex = 0;
+            showSlides(slideIndex);
+
+            function showSlides(n) {
+                setTimeout(showSlides, 5000); // Change image every 5 seconds
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                var dots = document.getElementsByClassName("dot");
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                slideIndex++;
+                if (slideIndex > slides.length) {
+                    slideIndex = 1
+                }
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex - 1].style.display = "block";
+                dots[slideIndex - 1].className += " active";
+            }
+
+            function plusSlides(n) {
+                showSlide(slideIndex += n);
+            }
+
+            function currentSlide(n) {
+                showSlide(slideIndex = n);
+            }
+
+            function showSlide(n) {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                var dots = document.getElementsByClassName("dot");
+                if (n > slides.length) {
+                    slideIndex = 1
+                }
+                if (n < 1) {
+                    slideIndex = slides.length
+                }
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex - 1].style.display = "block";
+                dots[slideIndex - 1].className += " active";
+            }
+        </script>
+        <!--#endregion  -->
+
+
+        <!--#region Cam Kết Chất Lượng -->
+        <ul class="v2">
+            <li class="l0">
+                <a href="#trang404" target="_blank" rel="nofollow">
+                    <img src="./img/a/1.png" alt="Cam kết chất lương" />
+                    <strong>Cam kết chất lương</strong>
+                    <span>Tuyệt đối yên tâm</span>
+                    <div class="glow-wrap">
+                        <i class="glow"></i>
+                    </div>
+                </a>
+            </li>
+            <li class="l1">
+                <a href="#trang404" target="_blank" rel="nofollow">
+                    <img src="./img/a/2.png" alt="Bảo hành siêu việt" />
+                    <strong>Bảo hành siêu việt</strong>
+                    <span>100% khách hàng hài lòng</span>
+                    <div class="glow-wrap">
+                        <i class="glow"></i>
+                    </div>
+                </a>
+            </li>
+            <li class="l2">
+                <a href="#trang404" target="_blank" rel="nofollow">
+                    <img src="./img/a/3.png" alt="Cam kết giá tốt nhất" />
+                    <strong>Cam kết giá tốt nhất</strong>
+                    <span>Khỏi mất công so sánh giá</span>
+                    <div class="glow-wrap">
+                        <i class="glow"></i>
+                    </div>
+                </a>
+            </li>
+            <li class="l3">
+                <a href="#trang404" target="_blank" rel="nofollow">
+                    <img src="./img/a/4.png" alt="Chế độ support nhiệt tình" />
+                    <strong>Chế độ support nhiệt tình</strong>
+                    <span>Xem khách hàng như người thân</span>
+                    <div class="glow-wrap">
+                        <i class="glow"></i>
+                    </div>
+                </a>
+            </li>
+        </ul>
+        <!--#endregion  -->
+    </form>
+    <!--#endregion  -->
+
+    <!-- #region CODE TUẤN -->
+    <div id="containerchinh">
+        <div id="menudienthoai">
+            <ul type="none">
+                <li>
+                    <a href="childPage/DienThoai.html" style=" width:105px;display: block;background-color: rgb(22, 34, 22);color: white;text-align: center;padding: 14px 16px; ">Điện thoại</a>
+                </li>
+                <li>
+                    <a href="childPage/DienThoai.html">iPhone</a>
+                </li>
+                <li>
+                    <a href="childPage/DienThoai.html">SamSung</a>
+                </li>
+                <li>
+                    <a href="childPage/DienThoai.html">Sony</a>
+                </li>
+            </ul>
+            <br>
+        </div>
+        <div href="childPage/DienThoai.html" id="containerdienthoai">
+
+        </div>
+        <div id="baner">
+            <img src="image/index/baner1.jpg" style="width:590px; align:right;">
+            <img src="image/index/baner2.jpg" style="width:590px; align:left;">
+        </div>
+        <div id="menusuachua" style="clear: both;">
+            <ul type="none">
+                <li>
+                    <a href="childPage/SuaChua.html" style=" width:105px;display: block;background-color: rgb(22, 34, 22);color: white;text-align: center;padding: 14px 16px; ">Sửa điện thoại</a>
+                    <li>
+                        <a href="childPage/SuaChua.html">Sửa điện thoại</a>
+                    </li>
+                    <li>
+                        <a href="childPage/SuaChua.html">Sửa Ipad</a>
+                    </li>
+                    <li>
+                        <a href="childPage/SuaChua.html">Thay phụ kiện</a>
+                    </li>
+                    <li>
+                        <a href="childPage/SuaChua.html">Vệ sinh máy</a>
+                    </li>
+                </li>
+
+            </ul>
+            <br>
+        </div>
+
+        <div id="containersuachua">
+
+        </div>
+        <div id="baner">
+            <img src="image/index/baner3.jpg" style="width:590px; align:right;">
+            <img src="image/index/baner4.jpg" style="width:590px; align:left;">
+        </div>
+        <div id="menuphukien" style="clear: both;">
+            <ul type="none">
+                <li>
+                    <a href="childPage/PhuKien.html" style=" width:105px;display: block;background-color: rgb(22, 34, 22);color: white;text-align: center;padding: 14px 16px; ">Phụ kiện</a>
+                    <li>
+                        <a href="childPage/PhuKien.html">Tai nghe</a>
+                    </li>
+                    <li>
+                        <a href="childPage/PhuKien.html">Sạc</a>
+                    </li>
+                    <li>
+                        <a href="childPage/PhuKien.html">USB</a>
+                    </li>
+                    <li>
+                        <a href="childPage/PhuKien.html">Cáp USB</a>
+                    </li>
+                    <li>
+                        <a href="childPage/PhuKien.html">Sạc dự phòng</a>
+                    </li>
+                    <li>
+                        <a href="childPage/PhuKien.html">Bán vi lạnh</a>
+                    </li>
+                </li>
+
+            </ul>
+            <br>
+        </div>
+        <div id="containerphukien">
+
+        </div>
+    </div>
+    <!-- #endregion -->
+
+
+    <!--#region Phần đuôi không đổi footer + tin tức kết nối + ý kiến ngôi sao + FB + gửi mail  -->
+
+    <div class="TinTucKetNoi">
+        <ul class="cc">
+            <li class="l">
+                <strong class="h">
+                    <a class="button box-shadow-inset" href="" #trang404 "" title="Khách hàng nói về TrueSmart">Khách hàng nói về TrueSmart</a>
+
+                </strong>
+                <div class="khachhangnoi" style="width: 360px; height: 320px;">
+                    <img class="slidekhachhang" src="image/khachhang/khachhang1.jpg" style="width:360px">
+                    <img class="slidekhachhang" src="image/khachhang/khachhang2.jpg" style="width:360px">
+                    <img class="slidekhachhang" src="image/khachhang/khachhang3.jpg" style="width:360px">
+                    <img class="slidekhachhang" src="image/khachhang/khachhang4.jpg" style="width:360px">
+                    <img class="slidekhachhang" src="image/khachhang/khachhang5.jpg" style="width:360px">
+
+                    <script>
+                        var sothutu = 0;
+                        ChuyenSlide();
+
+                        function ChuyenSlide() {
+                            var i;
+                            var x = document.getElementsByClassName("slidekhachhang");
+                            for (i = 0; i < x.length; i++) {
+                                x[i].style.display = "none";
+                            }
+                            sothutu++;
+                            if (sothutu > x.length) { sothutu = 1 }
+                            x[sothutu - 1].style.display = "block";
+                            setTimeout(ChuyenSlide, 2000);
+                        }
+                    </script>
+
+                </div>
+            </li>
+
+            <li class="c">
+                <div class="h">
+                    <a href="./childPage/TinTuc.html" title="Tin tức  Sự kiện" class="button box-shadow-inset">Tin tức</a>
+                </div>
+                <div class="b">
+                    <a href="./childPage/TinTuc.html">
+                        <img src="./img/n/huong-dan-su-dung-thuoc-la-dien-tu-iqos.jpg" alt="Hướng dẫn sử dụng Thuốc lá điện tử IQOS" />
+                    </a>
+                    <strong>
+                        <a href="./childPage/TinTuc.html">Hướng dẫn sử dụng Thuốc lá điện tử IQOS</a>
+                    </strong>
+                    <span>Hiện thuốc lá điện tử IQOS đang rất hót trên thị trường hiện nay. Tuy nhiên không phải ai cũng biết cách
+                        sử dụng Thuốc lá điện tử IQOS đúng cách.</span>
+                </div>
+                <div class="b">
+                    <a href="./childPage/TinTuc.html">
+                        <img src="./img/n/thuoc-la-dien-tu-iqos-la-gi-dung-iqos-co-tot-ko.jpg" alt="Thuốc lá điện tử IQOS là gì? Dùng IQOS có tốt ko?"
+                        />
+                    </a>
+                    <strong>
+                        <a href="./childPage/TinTuc.html">Thuốc lá điện tử IQOS là gì? Dùng IQOS có tốt ko?</a>
+                    </strong>
+                    <span>Thuốc lá điện tử IQOS là gì? Nó hiểu đơn giản là thiết bị điện tử gồm các mạch điện bên trong. Nó chưa
+                        được các loại thuốc lá (chỉ gồm những loại thuốc lá được thiết kế riêng biệt dành cho IQOS).</span>
+                </div>
+                <div class="b">
+                    <a href="./childPage/TinTuc.html">
+                        <img src="./img/n/iqos-hoat-dong-nhu-the-nao.png" alt="IQOS hoạt động như thế nào?" />
+                    </a>
+                    <strong>
+                        <a href="./childPage/TinTuc.html">IQOS hoạt động như thế nào?</a>
+                    </strong>
+                    <span>IQOS là một hệ thống sưởi thuốc lá với ba thành phần chính - một đơn vị thuốc lá được gia nhiệt (được
+                        gọi là HEETS hoặc HeatSticks), một bộ phận IQOS và một bộ sạc.</span>
+                </div>
+
+            </li>
+
+            <li class="r">
+                <div class="h">
+                    <strong class="button box-shadow-inset">Kết nối với chung tôi</strong>
+                </div>
+                <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ftruesmartphone%2F&tabs=timeline&width=340&height=330px&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+                    width="340" height="330px" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"
+                    allow="encrypted-media"></iframe>
+            </li>
+        </ul>
+    </div>
+
+
+    <div class="eml">
+        <ul>
+            <li class="l">Đăng ký nhận tin khuyến mại</li>
+            <li class="c">
+                <input name="ctText" type="text" id="Text1" class="txt" placeholder="Nhập địa chỉ Email của bạn" />
+            </li>
+            <li class="r">
+                <img src="./img/bg/m.jpg" width="100px;" alt="Đăng ký nhận tin" />
+            </li>
+        </ul>
+    </div>
+
+
+    <div class="myFooter">
+        <ul class="uft">
+            <li class="v7">
+                <a href="https://www.facebook.com/truesmartphone/" target="_blank" rel="nofollow">
+                    <img src="./img/a/14.png" alt="Facebook" />
+                </a>
+                <a href="https://plus.google.com/100289170301242519684?hl=vi" target="_blank" rel="nofollow">
+                    <img src="./img/a/15.png" alt="Google +" />
+                </a>
+                <a href="https://www.youtube.com/channel/UCOI4F__kjr_6PdoMbsBT3UA" target="_blank" rel="nofollow">
+                    <img src="./img/a/16.png" alt="Youtube" />
+                </a>
+            </li>
+            <li class="v8">
+                <div class="h">
+                    <a href="#trang404" target="_blank" rel="nofollow"></a>
+                    <span class="s1">Hãy gọi cho chúng tôi để được tư vấn</span>
+                    <span class="s2">Hotline:
+                        <b>0948.122.666 - 0948.122.666</b>
+                    </span>
+                </div>
+
+            </li>
+            <li class="TinhThanh">
+                <strong class="tt">Tỉnh thành khác</strong>
+                <div class="v">
+                    <span class="s1">CS11: 237/68 Trần Văn Đang F11, Q.3</span>
+                    <span class="s2">Hotline:
+                        <b>0985.16.17.18</b>
+                    </span>
+                </div>
+                <div class="v">
+                    <span class="s1">CS12: 1 Tuệ Tĩnh, P. 13, Q.11, TP.HCM</span>
+                    <span class="s2">Hotline:
+                        <b>0967.77.88.99</b>
+                    </span>
+                </div>
+            </li>
+            <li class="TinhThanh">
+                <strong class="tt">Cửa hàng Hà Nội</strong>
+                <div class="v">
+                    <span class="s1">Trụ Sở 1: 31 Xã Đàn-Đống Đa-HN</span>
+                    <span class="s2">Hotline:
+                        <b>0948.122.666</b>
+                    </span>
+                </div>
+                <div class="v">
+                    <span class="s1">CS2: 21 Đội Cấn-Ba Đình-HN</span>
+                    <span class="s2">Hotline:
+                        <b>0961.023.023</b>
+                    </span>
+                </div>
+                <div class="v">
+                    <span class="s1">CS3: 21B Hàng Bài- Hoàn Kiếm - HN</span>
+                    <span class="s2">Hotline:
+                        <b>0981.665.665</b>
+                    </span>
+                </div>
+                <div class="v">
+                    <span class="s1">CS4: 45 Nguyễn Chí Thanh - Ba Đình - HN</span>
+                    <span class="s2">Hotline:
+                        <b>0948.550.560</b>
+                    </span>
+                </div>
+                <div class="v">
+                    <span class="s1">CS5: 196 Nguyễn Trãi-Thanh Xuân - HN</span>
+                    <span class="s2">Hotline:
+                        <b>01665.92.92.92</b>
+                    </span>
+                </div>
+                <div class="v">
+                    <span class="s1">CS6: 81 Phố Vọng-Hai Bà Trưng-HN</span>
+                    <span class="s2">Hotline:
+                        <b>096.123.8181</b>
+                    </span>
+                </div>
+                <div class="v">
+                    <span class="s1">CS7: 23 Nguyễn Phong Sắc, Cầu Giấy, HN</span>
+                    <span class="s2">Hotline:
+                        <b>0961.933.933</b>
+                    </span>
+                </div>
+                <div class="v">
+                    <span class="s1">CS8: 215 Nguyễn Văn Cừ - Long Biên - Hà Nội</span>
+                    <span class="s2">Hotline:
+                        <b>0886.215.215</b>
+                    </span>
+                </div>
+                <div class="v">
+                    <span class="s1">CS9: 204 Thái Hà - Đống Đa - Hà Nội</span>
+                    <span class="s2">Hotline:
+                        <b>096.357.3333</b>
+                    </span>
+                </div>
+                <div class="v">
+                    <span class="s1">CS10: 41 Quang Trung - Hà Đông - Hà Nội</span>
+                    <span class="s2">Hotline:
+                        <b>093.123.4141</b>
+                    </span>
+                </div>
+            </li>
+            <li class="lfl">
+                <ul class="umf">
+                    <li class="tt">Về công ty</li>
+                    <li class="f">
+                        <a href="#trang404" rel="nofollow">Giới thiệu về TrueSmart</a>
+                    </li>
+                    <li class="f">
+                        <a href="#trang404" rel="nofollow">Công trình đã thực hiện</a>
+                    </li>
+                    <li class="f">
+                        <a href="#trang404" rel="nofollow">Sơ đồ chỉ đường</a>
+                    </li>
+                    <li class="f">
+                        <a href="#trang404" rel="nofollow">Đào tạo - Dạy nghề</a>
+                    </li>
+                </ul>
+                <ul class="umf">
+                    <li class="tt">Chính sách quy định</li>
+                    <li class="f">
+                        <a href="#trang404" rel="nofollow">Bảo mật thông tin</a>
+                    </li>
+                    <li class="f">
+                        <a href="#trang404" rel="nofollow">Chính sách bảo hành</a>
+                    </li>
+                    <li class="f">
+                        <a href="#trang404" rel="nofollow">Chính sách vận chuyển</a>
+                    </li>
+                    <li class="f">
+                        <a href="#trang404" rel="nofollow">Chính sách đổi trả</a>
+                    </li>
+                    <li class="f">
+                        <a href="#trang404" rel="nofollow">Mua hàng và thanh toán</a>
+                    </li>
+                    <li class="f">
+                        <a href="#trang404" rel="nofollow">Mua hàng trả góp</a>
+                    </li>
+                    <li class="f">
+                        <a href="#trang404" rel="nofollow">Phản ảnh khiếu nại</a>
+                    </li>
+                </ul>
+                <ul class="umf">
+                    <li class="tt">Danh mục dịch vụ</li>
+                    <li class="f">
+                        <a href="#trangTuan" rel="nofollow">Điện thoại</a>
+                    </li>
+                    <li class="f">
+                        <a href="#trangTuan" rel="nofollow">iPad</a>
+                    </li>
+                    <li class="f">
+                        <a href="#trangTuan" rel="nofollow">Sửa chữa điện thoại</a>
+                    </li>
+                    <li class="f">
+                        <a href="#trangTuan" rel="nofollow">Phụ kiện</a>
+                    </li>
+                    <li class="f">
+                        <a href="#trangTuan" rel="nofollow">Unlock</a>
+                    </li>
+                    <li class="f">
+                        <a href="#trang404" rel="nofollow">Đào tạo</a>
+                    </li>
+                    <li class="f">
+                        <a href="./UuDai.html" rel="nofollow">Ưu đãi</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="cl"></li>
+        </ul>
+    </div>
+
+    <ul style="background-color:#231f20;">
+        <li class="f9">
+            <div style="text-align: center;">- HKD Dịch vụ sửa chữa điện thoại di động TrueSmart
+                <br /> - Số ĐKKD 01E8016796 do UBND Quận Đống Đa cấp ng&agrave;y 17/12/2013
+                <br /> - Chủ website: Ng&ocirc; Văn Thuận
+                <br />
+                <br /> Trung t&acirc;m&nbsp;
+                <a href="#trang404">sửa chữa điện thoại uy tín giá rẻ quốc,
+                    <a href="#trang404">thay màn hình iphone</a> lấy liền tại Hà Nội
+                    <br />
+                    <a href="#trang404">Thay mặt kính iPhone</a>,&nbsp;
+                    <a href="#trang404">iPhone 4s</a>,
+                    <a href="#trang404">iPhone 5</a>,
+                    <a href="#trang404">iPhone 5s</a>,
+                    <a href="#trang404">iPhone 6</a>,
+                    <a href="#trang404">iPhone 6 Plus</a>,
+                    <a href="#trang404">iPhone 7</a>,
+                    <a href="#trang404/">iPhone 7 Plus</a>,
+                    <a href="#trang404">iPhone 8</a>,
+                    <a href="#trang404">iPhone 8 Plus</a>,
+                    <a href="#trang404">iPhone X</a>
+            </div>
+        </li>
+    </ul>
+    <!--#endregion  -->
+
+    <!-- #region CODE TUẤN -->
+    <script src="./childPage/data/dienthoai.js">
+    </script>
+    <script src="./childPage/data/suachua.js">
+    </script>
+    <script src="./childPage/data/phukien.js">
+    </script>
+    <script>
+        LoadDataDienThoai5CaiDau();
+        LoadDataSuaChua5CaiDau();
+        LoadDataPhuKien5CaiDau();
+    </script>
+    <!-- #endregion -->
+</body>
+
+</html>
